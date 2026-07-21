@@ -1,0 +1,40 @@
+{
+    "lang": "en",
+    "dir": "ltr",
+    "scope": "/",
+    "shortcuts": [],
+    "start_url": "/",
+    "description": "",
+    "name": "Datlasync",
+    "orientation": "any",
+    "categories": ["games"],
+    "display": "fullscreen",
+    "theme_color": "#ffffff",
+    "short_name": "Datlasync",
+    "related_applications": [],
+    "background_color": "#ffffff",
+    "id": "https://datlasync.org/",
+    "prefer_related_applications": false,
+    "display_override": ["standalone", "minimal-ui", "browser", "window-controls-overlay"],
+    "launch_handler": {"client_mode": ["auto", "focus-existing", "navigate-existing", "navigate-new"]},
+    "icons": [
+        {
+            "purpose": "any",
+            "sizes": "192x192",
+            "type": "image/png",
+            "src": "/static/assets/other/icons/icon192x192.png"
+        },
+        {
+            "purpose": "any",
+            "sizes": "512x512",
+            "type": "image/png",
+            "src": "/static/assets/other/icons/icon512x512.png"
+        },
+        {
+            "sizes": "192x192",
+            "type": "image/png",
+            "purpose": "maskable",
+            "src": "/static/assets/other/icons/icon192x192.png"
+        }
+    ]
+}
